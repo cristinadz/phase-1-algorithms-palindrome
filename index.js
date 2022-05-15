@@ -1,10 +1,13 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(string) {
+  reverseString = string.split('').reverse().join('')
+
+  return reverseString === string
+
 }
 
 /* 
-  Add your pseudocode here
-*/
+if the last letter is equal to the first, if the second to last letter is 
+equal to the second letter then return true */
 
 /*
   Add written explanation of your solution here
